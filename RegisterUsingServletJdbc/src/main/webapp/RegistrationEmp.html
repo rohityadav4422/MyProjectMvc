@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Details</title>
+</head>
+<style>
+table{
+margin:auto;
+font-size: 25px;
+}
+#submit{
+font-size:25px;
+margin-top:20px;
+margin-left: 80px;
+padding: 10px;
+padding-left: 30px;
+padding-right: 30px;
+background-color: purple;
+color: white;
+border-radius: 50%;
+}
+</style>
+<body>
+
+<form action="./emp" method="post">
+<fieldset>
+<legend style="font-size: 40px;text-align: center;text-decoration: underline;background-color: black;color:yellow;">
+Employee Form</legend>
+<table>
+<tr>
+ <td>Id:</td>
+ <td><input type="number" name="id"> </td>
+ </tr>
+ <tr>
+ <tr>
+ <td>Full Name:</td>
+ <td><input type="text" name="name"> </td>
+ </tr>
+ <tr>
+ <td> Address:</td>
+ <td><input type="text" name="address"> </td>
+ </tr>
+ <tr>
+ <td> Date Of Birth:</td>
+ <td><input type="text" name="DOB"> </td>
+ </tr>
+ <tr>
+ <td> Contact:</td>
+ <td><input type="number" name="contact"> </td>
+ </tr>
+ <tr>
+ <td> Email:</td>
+ <td><input type="email" name="email"> </td>
+ </tr>
+ <tr>
+ <td> Password:</td>
+ <td><input type="password" name="password"> </td>
+ </tr>
+  <tr>
+ <td><input type="submit" value="submit" id="submit"> </td>
+ </tr>
+</table>
+</fieldset>
+</form>
+</body>
+</html>
